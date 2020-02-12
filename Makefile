@@ -9,8 +9,8 @@ all:
 install:
 	sudo mkdir -p /var/amimemes/
 
-	sudo cp assets/egal.mp3 /var/amimemes/
-	sudo cp assets/groß.mp3 /var/amimemes/
+	sudo cp -f assets/egal.mp3 /var/amimemes/
+	sudo cp -f assets/groß.mp3 /var/amimemes/
 
 	sudo install -m 755 scripts/egal.sh /usr/local/bin/egal
 	sudo install -m 755 scripts/groß.sh /usr/local/bin/groß
