@@ -9,3 +9,6 @@ $ make install
 ```bash
 $ make uninstall
 ```
+
+### Dependencies
+* mpv
