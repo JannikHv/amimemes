@@ -45,7 +45,7 @@ case "${1}" in
 
     einhundimbüro)
         pkill -9 mpv
-        echo "ok"
+        echo "Ein Hünd im Büro???"
         mpv /var/amimemes/ein_hund_im_büro.mp3 --no-video &> /dev/null
         ;;
 
