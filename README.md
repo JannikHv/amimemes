@@ -19,6 +19,11 @@ $ amimemes egal
 $ amimemes dasdingistgroß
 $ amimemes woranhatsgelegen
 $ amimemes innenminister
+
+Stop running memes:
+$ amimemes stop
 ```
 
 You're welcome to use aliases.
+
+Running multiple memes at once is not possible.
