@@ -25,6 +25,12 @@ case "${1}" in
         mpv /var/amimemes/innenminister.mp3 --no-video &> /dev/null
         ;;
 
+    dascostafastgarnix)
+        pkill -9 mpv
+        echo "Das costa fast gar nix!"
+        mpv /var/amimemes/das_costa_fast_gar_nix.mp3 --no-video &> /dev/null
+        ;;
+
     stop)
         pkill -9 mpv
         ;;
@@ -37,4 +43,5 @@ case "${1}" in
         echo "  dasdingistgroß"
         echo "  woranhatsgelegen"
         echo "  innenminister"
+        echo "  dascostafastgarnix"
 esac

@@ -19,6 +19,7 @@ $ amimemes egal
 $ amimemes dasdingistgroß
 $ amimemes woranhatsgelegen
 $ amimemes innenminister
+$ amimemes dascostafastgarnix
 
 Stop running memes:
 $ amimemes stop
