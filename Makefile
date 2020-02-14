@@ -14,6 +14,7 @@ install:
 	sudo cp -f assets/woran_hats_gelegen.mp3 /var/amimemes/
 	sudo cp -f assets/innenminister.mp3 /var/amimemes/
 	sudo cp -f assets/das_costa_fast_gar_nix.mp3 /var/amimemes/
+	sudo cp -f assets/wochenende_saufen.mp3 /var/amimemes/
 
 	sudo install -m 755 amimemes.sh /usr/local/bin/amimemes
 

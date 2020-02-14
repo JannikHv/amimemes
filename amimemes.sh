@@ -31,6 +31,12 @@ case "${1}" in
         mpv /var/amimemes/das_costa_fast_gar_nix.mp3 --no-video &> /dev/null
         ;;
 
+    wochenendesaufen)
+        pkill -9 mpv
+        echo "Wochenende! Saufen!!"
+        mpv /var/amimemes/wochenende_saufen.mp3 --no-video &> /dev/null
+        ;;
+
     stop)
         pkill -9 mpv
         ;;
@@ -44,4 +50,5 @@ case "${1}" in
         echo "  woranhatsgelegen"
         echo "  innenminister"
         echo "  dascostafastgarnix"
+        echo "  wochenendesaufen"
 esac

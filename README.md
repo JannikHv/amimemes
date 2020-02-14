@@ -20,6 +20,7 @@ $ amimemes dasdingistgroß
 $ amimemes woranhatsgelegen
 $ amimemes innenminister
 $ amimemes dascostafastgarnix
+$ amimemes wochenendesaufen
 
 Stop running memes:
 $ amimemes stop
