@@ -22,6 +22,7 @@ $ amimemes innenminister
 $ amimemes dascostafastgarnix
 $ amimemes wochenendesaufen
 $ amimemes ok
+$ amimemes einhundimbüro
 
 Stop running memes:
 $ amimemes stop

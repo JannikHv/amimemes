@@ -39,8 +39,14 @@ case "${1}" in
 
     ok)
         pkill -9 mpv
-        echo "Wochenende! Saufen!!"
+        echo "ok"
         mpv /var/amimemes/ok.mp3 --no-video &> /dev/null
+        ;;
+
+    einhundimbüro)
+        pkill -9 mpv
+        echo "ok"
+        mpv /var/amimemes/ein_hund_im_büro.mp3 --no-video &> /dev/null
         ;;
 
     stop)
