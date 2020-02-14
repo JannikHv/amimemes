@@ -16,6 +16,11 @@ case "${1}" in
         mpv /var/amimemes/woran_hats_gelegen.mp3 --no-video &> /dev/null
         ;;
 
+    innenminister)
+        echo "Ein Teil dieser Antworten würde die Bevölkerung verunsichern..."
+        mpv /var/amimemes/innenminister.mp3 --no-video &> /dev/null
+        ;;
+
     *)
         echo "\$ amimemes [Meme]"
         echo ""
@@ -23,4 +28,5 @@ case "${1}" in
         echo "  egal"
         echo "  dasdingistgroß"
         echo "  woranhatsgelegen"
+        echo "  innenminister"
 esac
