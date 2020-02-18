@@ -23,6 +23,7 @@ $ amimemes dascostafastgarnix
 $ amimemes wochenendesaufen
 $ amimemes ok
 $ amimemes einhundimbüro
+$ amimemes thatswhatshesaid
 
 Stop running memes:
 $ amimemes stop
