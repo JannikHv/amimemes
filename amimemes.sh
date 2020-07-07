@@ -55,6 +55,12 @@ case "${1}" in
         mpv /var/amimemes/thats_what_she_said.mp3 --no-video &> /dev/null
         ;;
 
+    dochoh)
+        pkill -9 mpv
+        echo "Doch, OH!"
+        mpv /var/amimemes/doch_oh.mp3 --no-video &> /dev/null
+        ;;
+
     stop)
         pkill -9 mpv
         ;;
@@ -72,5 +78,6 @@ case "${1}" in
         echo "  ok"
         echo "  einhundimbüro"
         echo "  thatswhatshesaid"
+        echo "  dochoh"
         echo "  stop"
 esac

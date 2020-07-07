@@ -16,6 +16,7 @@ install:
 	sudo cp -f assets/innenminister.mp3 /var/amimemes/
 	sudo cp -f assets/ok.mp3 /var/amimemes/
 	sudo cp -f assets/thats_what_she_said.mp3 /var/amimemes/
+	sudo cp -f assets/doch_oh.mp3 /var/amimemes/
 	sudo cp -f assets/wochenende_saufen.mp3 /var/amimemes/
 	sudo cp -f assets/woran_hats_gelegen.mp3 /var/amimemes/
 

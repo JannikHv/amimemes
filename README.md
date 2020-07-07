@@ -24,6 +24,7 @@ $ amimemes wochenendesaufen
 $ amimemes ok
 $ amimemes einhundimbüro
 $ amimemes thatswhatshesaid
+$ amimemes dochoh
 
 Stop running memes:
 $ amimemes stop
