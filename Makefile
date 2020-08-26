@@ -19,6 +19,7 @@ install:
 	sudo cp -f assets/doch_oh.mp3 /var/amimemes/
 	sudo cp -f assets/wochenende_saufen.mp3 /var/amimemes/
 	sudo cp -f assets/woran_hats_gelegen.mp3 /var/amimemes/
+	sudo cp -f assets/xfiles.mp3 /var/amimemes/
 
 	sudo install -m 755 amimemes.sh /usr/local/bin/amimemes
 
