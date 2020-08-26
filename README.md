@@ -27,6 +27,7 @@ $ amimemes thatswhatshesaid
 $ amimemes dochoh
 $ amimemes xfiles
 $ amimemes cool
+$ amimemes shutdown
 
 Stop running memes:
 $ amimemes stop
