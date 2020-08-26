@@ -26,6 +26,7 @@ $ amimemes einhundimbüro
 $ amimemes thatswhatshesaid
 $ amimemes dochoh
 $ amimemes xfiles
+$ amimemes cool
 
 Stop running memes:
 $ amimemes stop

@@ -56,6 +56,11 @@ case "${1}" in
         mpv /var/amimemes/xfiles.mp3 --no-video &> /dev/null
         ;;
 
+    cool)
+        pkill -9 mpv
+        mpv /var/amimemes/cool.mp3 --no-video &> /dev/null
+        ;;
+
     stop)
         pkill -9 mpv
         ;;
@@ -75,5 +80,6 @@ case "${1}" in
         echo "  thatswhatshesaid"
         echo "  dochoh"
         echo "  xfiles"
+        echo "  cool"
         echo "  stop"
 esac
