@@ -79,6 +79,12 @@ case "${1}" in
         mpv /var/amimemes/shutdown.mp3 --no-video &> /dev/null &
         ;;
 
+    adolf)
+        pkill -9 mpv
+        curl -X POST https://memes.amicaldo.net/play/adolf &> /dev/null &
+        mpv /var/amimemes/adolf.mp3 --no-video &> /dev/null &
+        ;;
+
     stop)
         pkill -9 mpv
         ;;
@@ -100,5 +106,6 @@ case "${1}" in
         echo "  xfiles"
         echo "  cool"
         echo "  shutdown"
+        echo "  adolf"
         echo "  stop"
 esac

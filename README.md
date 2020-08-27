@@ -28,6 +28,7 @@ $ amimemes dochoh
 $ amimemes xfiles
 $ amimemes cool
 $ amimemes shutdown
+$ amimemes adolf
 
 Stop running memes:
 $ amimemes stop
