@@ -45,7 +45,7 @@ case "${1}" in
 
     einhundimbüro)
         pkill -9 mpv
-        curl -X POST https://memes.amicaldo.net/play/einhundimbüro &> /dev/null &
+        curl -X POST https://memes.amicaldo.net/play/einhundimbuero &> /dev/null &
         mpv /var/amimemes/ein_hund_im_büro.mp3 --no-video &> /dev/null &
         ;;
 
