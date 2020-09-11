@@ -97,6 +97,12 @@ case "${1}" in
         play_audio /var/amimemes/adolf.mp3
         ;;
 
+    dumm)
+        pkill -9 mpv
+        curl -X POST https://memes.amicaldo.net/play/dumm &> /dev/null &
+        play_audio /var/amimemes/dumm.mp3
+        ;;
+
     stop)
         pkill -9 mpv
         ;;
@@ -119,5 +125,6 @@ case "${1}" in
         echo "  cool"
         echo "  shutdown"
         echo "  adolf"
+        echo "  dumm"
         echo "  stop"
 esac
