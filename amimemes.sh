@@ -113,6 +113,12 @@ case "${1}" in
         play_audio /var/amimemes/dumm.mp3
         ;;
 
+    waswiller)
+        kill_audio
+        curl -X POST https://memes.amicaldo.net/play/waswiller &> /dev/null &
+        play_audio /var/amimemes/waswiller.mp3
+        ;;
+
     stop)
         kill_audio
         ;;
@@ -136,5 +142,6 @@ case "${1}" in
         echo "  shutdown"
         echo "  adolf"
         echo "  dumm"
+        echo "  waswiller"
         echo "  stop"
 esac
