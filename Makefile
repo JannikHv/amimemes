@@ -25,6 +25,7 @@ install:
 	sudo cp -f assets/adolf.mp3 /var/amimemes/
 	sudo cp -f assets/dumm.mp3 /var/amimemes/
 	sudo cp -f assets/waswiller.mp3 /var/amimemes/
+	sudo cp -f assets/verstehe_ich_nicht.mp3 /var/amimemes/
 
 	sudo install -m 755 amimemes.sh /usr/local/bin/amimemes
 

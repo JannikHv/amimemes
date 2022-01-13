@@ -31,6 +31,7 @@ $ amimemes shutdown
 $ amimemes adolf
 $ amimemes dumm
 $ amimemes waswiller
+$ amimemes versteheichnicht
 
 Stop running memes:
 $ amimemes stop

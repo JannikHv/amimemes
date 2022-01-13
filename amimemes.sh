@@ -119,6 +119,12 @@ case "${1}" in
         play_audio /var/amimemes/waswiller.mp3
         ;;
 
+    versteheichnicht)
+        kill_audio
+        curl -X POST https://memes.amicaldo.net/play/versteheichnicht &> /dev/null &
+        play_audio /var/amimemes/verstehe_ich_nicht.mp3
+        ;;
+
     stop)
         kill_audio
         ;;
@@ -143,5 +149,6 @@ case "${1}" in
         echo "  adolf"
         echo "  dumm"
         echo "  waswiller"
+        echo "  versteheichnicht"
         echo "  stop"
 esac
