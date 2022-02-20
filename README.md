@@ -32,6 +32,7 @@ $ amimemes adolf
 $ amimemes dumm
 $ amimemes waswiller
 $ amimemes versteheichnicht
+$ amimemes emotionaldamage
 
 Stop running memes:
 $ amimemes stop
