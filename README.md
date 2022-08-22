@@ -33,6 +33,7 @@ $ amimemes dumm
 $ amimemes waswiller
 $ amimemes versteheichnicht
 $ amimemes emotionaldamage
+$ amimemes doit
 
 Stop running memes:
 $ amimemes stop
