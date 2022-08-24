@@ -34,6 +34,7 @@ $ amimemes waswiller
 $ amimemes versteheichnicht
 $ amimemes emotionaldamage
 $ amimemes doit
+$ amimemes mathemann
 
 Stop running memes:
 $ amimemes stop

@@ -28,6 +28,7 @@ install:
 	sudo cp -f assets/verstehe_ich_nicht.mp3 /var/amimemes/
 	sudo cp -f assets/emotional_damage.mp3 /var/amimemes/
 	sudo cp -f assets/doit.mp3 /var/amimemes/
+	sudo cp -f assets/mathemann.mp3 /var/amimemes/
 
 	sudo install -m 755 amimemes.sh /usr/local/bin/amimemes
 
