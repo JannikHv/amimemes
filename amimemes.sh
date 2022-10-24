@@ -143,6 +143,12 @@ case "${1}" in
         play_audio /var/amimemes/mathemann.mp3
         ;;
 
+    okayletsgo)
+        kill_audio
+        curl -X POST https://memes.amicaldo.net/play/okayletsgo &> /dev/null &
+        play_audio /var/amimemes/okay_lets_go.mp3
+        ;;
+
     stop)
         kill_audio
         ;;
@@ -171,5 +177,6 @@ case "${1}" in
         echo "  emotionaldamage"
         echo "  doit"
         echo "  mathemann"
+        echo "  okayletsgo"
         echo "  stop"
 esac
