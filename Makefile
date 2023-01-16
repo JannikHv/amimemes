@@ -30,6 +30,7 @@ install:
 	sudo cp -f assets/doit.mp3 /var/amimemes/
 	sudo cp -f assets/mathemann.mp3 /var/amimemes/
 	sudo cp -f assets/okay_lets_go.mp3 /var/amimemes/
+	sudo cp -f assets/whatthefuck.mp3 /var/amimemes/
 
 	sudo install -m 755 amimemes.sh /usr/local/bin/amimemes
 
