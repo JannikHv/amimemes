@@ -155,6 +155,12 @@ case "${1}" in
         play_audio /var/amimemes/whatthefuck.mp3
         ;;
 
+    mmmweißichnichtdigga)
+        kill_audio
+        curl -X POST https://memes.amicaldo.net/play/mmm_weiß_ich_nicht_digga &> /dev/null &
+        play_audio /var/amimemes/mmm_weiß_ich_nicht_digga.mp3
+        ;;
+
     stop)
         kill_audio
         ;;
@@ -185,5 +191,6 @@ case "${1}" in
         echo "  mathemann"
         echo "  okayletsgo"
         echo "  whatthefuck"
+        echo "  mmmweißichnichtdigga"
         echo "  stop"
 esac

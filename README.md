@@ -37,6 +37,7 @@ $ amimemes doit
 $ amimemes mathemann
 $ amimemes okayletsgo
 $ amimemes whatthefuck
+$ amimemes mmmweißichnichtdigga
 
 Stop running memes:
 $ amimemes stop
